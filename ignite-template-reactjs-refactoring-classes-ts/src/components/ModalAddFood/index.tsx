@@ -1,5 +1,6 @@
-import React, { createRef, ReactNode } from 'react';
+import React, { createRef, ReactNode, useRef } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
+import { FormHandles, SubmitHandler } from '@unform/core';
 
 import { Form } from './styles';
 import Modal from '../Modal';
@@ -16,17 +17,23 @@ interface IFood {
 }
 
 interface IProps {
-  children: ReactNode;
   setIsOpen: () => void;
   isOpen?: boolean;
   handleAddFood: (food: IFood) => Promise<void>;
 }
 
+interface FormData {
+  image: string;
+  name: string;
+  price: string;
+  description: string;
+}
+
 const ModalAddFood: React.FC<IProps> = (props: IProps) => {
   const { isOpen, setIsOpen } = props;
-  const formRef = createRef();
+  const formRef = useRef<FormHandles>(null);
 
-  const handleSubmit = async (data: IFood )=> {
+  const handleSubmit = async (data: IFood ) => {
     const { setIsOpen, handleAddFood } =  props;
 
     handleAddFood(data);

@@ -1,5 +1,10 @@
 import styled, { css } from 'styled-components';
 
+interface IProps {
+  isFilled: boolean;
+  isFocused: boolean;
+}
+
 export const Container = styled.div`
   display: flex;
   align-items: center;

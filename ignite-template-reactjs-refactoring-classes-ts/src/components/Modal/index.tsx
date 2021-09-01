@@ -1,18 +1,24 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 import ReactModal from 'react-modal';
 
 interface IProps {
   children: ReactNode;
-  setIsOpen?: boolean;
-  modalStatus?: boolean;
+  setIsOpen: () => void;
+  isOpen?: boolean;
 }
 
-const Modal: React.FC <IProps>= ({ children }) => {
+const Modal: React.FC <IProps>= ({ children, setIsOpen, isOpen }: IProps) => {
+  const [ modalStatus, setModalStatus ] = useState(isOpen);
+
+  if(!modalStatus) {
+    setModalStatus(false);
+  }
+
   return(
     <ReactModal
         shouldCloseOnOverlayClick={!false}
         onRequestClose={setIsOpen}
-        isOpen={modalStatus}
+        isOpen={modalStatus!}
         ariaHideApp={false}
         style={{
           content: {
