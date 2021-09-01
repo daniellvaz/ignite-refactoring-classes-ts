@@ -5,7 +5,7 @@ interface IProps {
   isFocused: boolean;
 }
 
-export const Container = styled.div`
+export const Container = styled.div<IProps>`
   display: flex;
   align-items: center;
 

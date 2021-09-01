@@ -7,26 +7,12 @@ import Modal from '../Modal';
 import Input from '../Input';
 import Food from '../Food';
 
-interface IFood {
-  id: number,
-  name: string,
-  description: string,
-  price: number,
-  available: boolean,
-  image: string
-}
+import { IFood } from '../../types/food';
 
 interface IProps {
   setIsOpen: () => void;
   isOpen?: boolean;
   handleAddFood: (food: IFood) => Promise<void>;
-}
-
-interface FormData {
-  image: string;
-  name: string;
-  price: string;
-  description: string;
 }
 
 const ModalAddFood: React.FC<IProps> = (props: IProps) => {

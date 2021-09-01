@@ -2,7 +2,8 @@ import {
   useEffect,
   useRef,
   useState,
-  useCallback
+  useCallback,
+  ReactElement
 } from 'react';
 
 import { useField } from '@unform/core';
@@ -12,12 +13,11 @@ import { Container } from './styles';
 interface Props {
   name: string
   label?: string
-  icon?: React.Component
 }
 
 type InputProps = JSX.IntrinsicElements['input'] & Props;
 
-const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
+const Input = ({ name, ...rest }: InputProps) => {
   const inputRef = useRef(null);
 
   const [isFocused, setIsFocused] = useState(false);
@@ -45,8 +45,6 @@ const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
 
   return (
     <Container isFilled={isFilled} isFocused={isFocused}>
-      {Icon && <Icon size={20} />}
-
       <input
         onFocus={handleInputFocus}
         onBlur={handleInputBlur}
