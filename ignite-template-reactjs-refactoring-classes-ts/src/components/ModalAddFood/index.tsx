@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React, { createRef, ReactNode } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
 
 import { Form } from './styles';
@@ -16,15 +16,26 @@ interface IFood {
 }
 
 interface IProps {
+  children: ReactNode;
   setIsOpen: () => void;
   isOpen?: boolean;
   handleAddFood: (food: IFood) => Promise<void>;
 }
 
 const ModalAddFood: React.FC<IProps> = (props: IProps) => {
+  const { isOpen, setIsOpen } = props;
+  const formRef = createRef();
+
+  const handleSubmit = async (data: IFood )=> {
+    const { setIsOpen, handleAddFood } =  props;
+
+    handleAddFood(data);
+    setIsOpen();
+  };
+
   return(
      <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
-        <Form ref={this.formRef} onSubmit={this.handleSubmit}>
+        <Form ref={formRef} onSubmit={handleSubmit}>
           <h1>Novo Prato</h1>
           <Input name="image" placeholder="Cole o link aqui" />
 
