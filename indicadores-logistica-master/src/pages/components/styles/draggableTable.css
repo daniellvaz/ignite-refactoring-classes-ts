@@ -1,0 +1,48 @@
+.card-details-store {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius: 7px;
+    background: rgb(29 37 59 / 22%) !important;
+    width: 97% !important;
+    margin-left: 1.5% !important;
+}
+
+.card-header-store {
+    padding: 1em;
+    margin-bottom: 1em;
+    background: #1e1e2d;
+    border: 1px solid #1e232f;
+    color: #4da5ff;
+    font-size: 18px;
+    position: fixed;
+    z-index: 99;
+    width: 100% !important;
+}
+
+.back-space-drag {
+    padding: 3em;
+}
+
+.draggable-tooltip {
+    background-color: transparent !important;
+    border: none !important
+}
+
+.width-80 {
+    width: 60% !important;
+    margin-left: 20% !important;
+}
+
+.small-space-row {
+    padding: 5px;
+}
+
+.draggable-message-edit {
+    margin-top: 1%;
+    color: #004e9a;
+}
+
+.btn-up-down {
+    font-size: 18px !important;
+}

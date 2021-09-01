@@ -1,0 +1,1 @@
+echo const configs = { URL_BASE: 'http://192.168.1.217:9003' }; export default configs; > src/config.js

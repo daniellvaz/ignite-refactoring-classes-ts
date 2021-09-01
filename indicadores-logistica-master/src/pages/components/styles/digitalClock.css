@@ -1,0 +1,12 @@
+.div-digital-clock {
+    color: #f7fbff !important;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    margin: 0em;
+}
+
+.table {
+    margin-top: 0em !important;
+}

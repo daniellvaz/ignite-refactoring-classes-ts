@@ -1,0 +1,102 @@
+.progress-padding {
+    height: 2em !important;
+    font-weight: bold !important;
+}
+
+.progress-bar {
+    color: #1e1e2b !important;
+    cursor: pointer;
+    background-color: #73b9fd !important;
+}
+
+.card-header-table {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.card-details {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 20px;
+    background: rgb(29 37 59 / 22%);
+    min-height: 680px;
+}
+
+.card-title-details {
+    font-size: 20px;
+    color: #1d8cf8 !important;
+}
+
+    .card-title-icon {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+.table {
+    margin-top: 2em;
+}
+
+.td-name {
+    text-align: center !important;
+    padding-right: 1em !important;
+    padding-bottom: 1.5em;
+}
+
+.td-progress {
+    padding-bottom: 1.5em;
+}
+
+.th-width-40 {
+    width: 40%;
+}
+
+.th-width-20 {
+    width: 20%;
+}
+
+.details-table-header {
+    padding: 1em;
+    font-size: 15px;
+    color: #d2d2d5;
+}
+
+.details-table-body {
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.col-street-column-cod {
+    padding: 1em;
+    font-weight: bold;
+}
+
+.col-street-column-progress {
+    padding: 1em;
+}
+
+.col-street-column-value {
+    font-weight: bold;
+    color: #73b9fd;
+}
+
+.col-street-column-pending-value {
+    font-weight: bold;
+    color: #ffadad;
+}
+
+.carousel-indicators {
+    position: unset !important;
+}
+
+.padding-1 {
+    padding: 1em;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.selected-bar {
+    background: linear-gradient(to top, #004384 , #73b9fd, #004384) !important;
+}

@@ -1,0 +1,11 @@
+.th-custom {
+  color: #1d8cf8!important;
+  font-size: 20px !important;
+  border: none;
+}
+
+.td-custom {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 500;
+}

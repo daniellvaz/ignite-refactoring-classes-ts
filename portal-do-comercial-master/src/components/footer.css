@@ -1,0 +1,21 @@
+.footer p {
+    margin-bottom: 0;
+    font-size: 0.7em;
+    color: #583c20
+}
+
+.footer-copyrights-icons {
+    margin-top: 2px;
+}
+
+.svg-inline--fa.fa-w-20 {
+    font-size: 0.7em;
+    margin: 0 4px 0 0;
+    padding: 0;
+}
+
+.svg-inline--fa.fa-w-16 {
+    font-size: 0.7em;
+    margin: 0 4px 0 0;
+    padding: 0;
+}

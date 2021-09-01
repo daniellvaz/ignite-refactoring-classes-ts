@@ -1,0 +1,103 @@
+
+.card-details-store {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius: 7px;
+    background: rgb(29 37 59 / 22%) !important;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.card-details-store {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius: 7px;
+    background: rgb(29 37 59 / 22%) !important;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.background-parameters {
+    background: transparent !important;
+    padding: 0em !important;
+}
+
+.float-action {
+    float: right;
+    cursor: pointer !important;
+}
+
+.text-danger-custom {
+    color: #ff3a4c !important;
+}
+
+.hour-text {
+    color: #1d8cf8 !important;
+    font-size: 1rem !important;
+}
+
+.storeid-left {
+    float: left;
+    margin-top: -6%;
+    margin-left: -5%;
+}
+
+.parameters-title {
+    color: #1d8cf8 !important;
+}
+
+.back-space {
+    padding: 1em;
+}
+
+.back-space-6em {
+    padding: 6em;
+}
+
+.messageEdit {
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 1%;
+    color: #004e9a;
+}
+
+.default-hour-text {
+    color: #1d8cf8 !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.color-success {
+    color: greenyellow !important;
+}
+
+.color-danger {
+    color: red !important;
+}
+
+.fixed-header-page {
+    position: fixed;
+    width: 100% !important;
+    background: #1e1e2b !important;
+    z-index: 99 !important;
+    width: 100% !important;
+    padding-top: 1% !important;
+    margin-top: -1.1em !important;
+}
+
+.text-big{
+    font-size: 18px;
+}
+
+.header-col {
+    padding-left: 3.5% !important;
+}
+
+.header-col-right {
+    padding-right: 3.5% !important;
+}

@@ -1,0 +1,85 @@
+.hamburger {
+    position: relative;
+}
+
+.hamburger, .hamburger:after, .hamburger:before {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 24px;
+    background: #495057;
+    content: "";
+    transition: background .1s ease-in-out, color .1s ease-in-out;
+}
+
+.hamburger:before {
+    top: -8px;
+    width: 20px;
+    position: absolute;
+}
+
+.hamburger:after {
+    bottom: -8px;
+    width: 16px;
+    position: absolute;
+}
+
+body:not([data-sidebar-position=right]) .sidebar-toggle {
+    margin-right: 1rem;
+}
+
+.sidebar-toggle {
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    display: flex;
+}
+
+.navbar img {
+    width: 125px;
+}
+
+ul li svg {
+    margin-right: 20px;
+}
+
+.feather {
+    width: 28px;
+    height: 28px;
+    margin-top: 3px;
+}
+
+.nome-usuario a {
+    padding-right: 0;
+}
+
+/* Dropdown */
+.dropdown-icon {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.2em;
+    right: 0;
+    /* top: 50px; */
+}
+.dropdown-links a {
+    text-decoration: none !important;
+    padding: 10px;
+}
+
+.dropdown-icon:hover .dropdown-links{
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    /* .dropdown-toggle::after {
+        content: "11" !important;
+    } */
+}

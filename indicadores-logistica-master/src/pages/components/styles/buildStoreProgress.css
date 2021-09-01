@@ -1,0 +1,101 @@
+
+table {
+    width: 100% !important;
+}
+
+td {
+    border: none !important;
+    width: 50% !important;
+}
+
+.td-name {
+    width: 65% !important;
+    border: none !important;
+}
+ .td-name-span {
+    color: gray;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: -62%;
+ }
+
+.td-bar {
+    width: 35% !important;
+    border: none !important;
+}
+
+.progress-store {
+    float: left;
+    background: #8ac1ff !important;
+    margin-right: 5% !important;
+    color: black !important;
+}
+
+.progress-bar-store {
+    float: left;
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: rgb(121 121 214 / 33%);
+}
+
+.progress-bar-store-content {
+    background: #7dbdfb;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.div-padding {
+    padding: 8px !important
+}
+
+.percentage-text {
+    font-size: 15px !important;
+    float: right !important;
+}
+
+.final-text {
+    font-size: 18px !important;
+    float: right !important;
+}
+
+.hour-status-text {
+    font-size: 16px !important;
+    float: left !important;
+    color: #7dbdfb;
+}
+
+.color-1 {
+    color:rgb(255, 84, 84);
+}
+
+.color-2 {
+    color:rgb(250, 184, 1);
+}
+
+.color-3 {
+    color:rgb(148 255 153);
+}
+
+.bg-color-1 {
+    background:rgb(255, 84, 84);
+}
+
+.bg-color-2 {
+    background:rgb(250, 184, 1);
+}
+
+.bg-color-3 {
+    background: rgb(148 255 153);
+}
+
+.icon-clock-size {
+    font-size: 25px;
+}
+
+.span-store {
+    font-size: 1.2em;
+    letter-spacing: 0.3rem;
+    color: white;
+}

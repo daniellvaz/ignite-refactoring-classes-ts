@@ -1,0 +1,60 @@
+.divider {
+    padding: 2em;
+}
+
+.css-5duvv3-control {
+    background-color: #1e1e29 !important;
+    border-color: hsl(225, 31.7%, 24.7%) !important;
+}
+
+.css-1vp9nu5-control {
+    background-color: #20202d !important;
+    border-color: hsl(225, 31.7%, 24.7%) !important;
+}
+
+.css-1cx94m5-singleValue {
+    color: hsl(209.9, 84.5%, 52%) !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.custom-card {
+    background: linear-gradient(to bottom, #27293d, #1d2944) !important;
+}
+
+.text-danger {
+    color: #ff4759 !important;
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+#dropdown-item-button {
+    background-image: linear-gradient(to bottom, #0d55a5, #1d8cf8) !important;
+    width: 100%;
+}
+#save-target-edit {
+    background-image: linear-gradient(to bottom, #0d55a5, #1d8cf8) !important;
+}
+
+#input-target-edit {
+    color: #1d8cf8 !important;
+    font-size: 15px;
+}
+
+#filter-drop .dropdown-menu {
+    background: #252a3f;
+}
+
+#filter-drop .dropdown-menu:before {
+    color: #25293f;
+}
+
+#filter-drop .dropdown-item {
+    color: #fff;
+}
+
+.padding-0 {
+    padding: 0.5em !important;
+}

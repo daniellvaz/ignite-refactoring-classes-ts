@@ -1,0 +1,12 @@
+.pace-running .block-screen {
+    background: #010b179c;
+    padding: 7em;
+    position: absolute;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+}
+
+.pace-active {
+    z-index: 9999999;
+}

@@ -1,0 +1,29 @@
+.uncontrolled-dropdown-custom {
+    float: left;
+    margin-right: 1%;
+}
+
+.loadingMessage {
+    margin-top: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+    color: #45a4f8;
+    font-weight: 400;
+}
+
+.blink {
+    animation: blink 2s infinite;
+}
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

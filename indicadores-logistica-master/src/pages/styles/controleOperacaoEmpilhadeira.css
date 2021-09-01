@@ -1,0 +1,134 @@
+#tarefasNameFooter {
+    margin-left: 1%;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    width: 12% !important;
+}
+
+#tarefasHoraFooter {
+    margin-left: 1%;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #1d8cf8;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-left: 1%;
+    width: 60% !important;
+}
+
+#tarefasBlocoFooter {
+    margin-left: 1%;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #ff8d72;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-left: 1%;
+    width: 24% !important;
+}
+
+#tarefasNameHeader {
+    margin-left: 1%;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    width: 12% !important;
+}
+
+#tarefasHoraHeader {
+    margin-left: 1%;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #1d8cf8;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-left: 1%;
+    width: 60% !important;
+}
+
+#tarefasBlocoHeader {
+    margin-left: 1%;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #ff8d72;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-left: 1%;
+    width: 24% !important;
+}
+
+#tarefasNameBody {
+    margin-left: 1%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #fff;
+    padding-top: 5px;
+    width: 12% !important;
+}
+
+#tarefasHoraBody {
+    margin-left: 1%;
+    padding-left: 1%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #1d8cf8;
+    padding-top: 5px;
+    width: 60% !important;
+}
+
+#tarefasBlocoBody {
+    margin-left: 1%;
+    padding-left: 1%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #ff8d72;
+    padding-top: 5px;
+    width: 24% !important;
+}
+
+.tarefasHoraHeader {
+    font-weight: bold !important;
+}
+
+.hr-divider {
+    border-color: #27293d;
+}
+
+.margin-0 {
+    margin: 2px !important;
+}
+
+.zebra-row-color {
+    background-color: #22222d;
+}
+.vertical-htext {
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+
+.header-footer-row {
+    background: #171721;
+}
+
+.panel-tarefas-finalizadas-card {
+    border: 1px solid #1d8cf8 !important;
+    box-shadow: 2px 2px 5px #1d8cf8 !important;
+}
+
+.panel-operadores-card {
+    border: 1px solid #ff8d72 !important;
+    box-shadow: 2px 2px 5px #ff8d72 !important;
+}
+
+

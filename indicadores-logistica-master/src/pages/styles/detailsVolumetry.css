@@ -1,0 +1,116 @@
+.DatePicker__calendarContainer {
+    background-color: transparent !important;
+}
+
+.DatePicker__calendarArrow {
+    display: none !important;
+}
+
+.Calendar__weekDay {
+    color: #73baff !important
+}
+
+.Calendar__day {
+    color: white;
+}
+    .-selected {
+        background-color: #1d8cf8 !important;
+    }
+    .-weekend {
+        color: gray !important;
+    }
+    .-today {
+        color: white !important;
+    }
+
+.Calendar {
+    background-color: #1d253b !important;
+}
+
+.Calendar__monthText {
+    color: #73baff !important
+}
+    .Calendar__monthText:hover {
+        color: #1d253b !important
+    }
+
+.Calendar__yearText {
+    color: #73baff !important
+}
+    .Calendar__yearText:hover {
+        color: #1d253b !important
+    }
+
+.form-control:focus {
+    border-color: #1d8cf8 !important;
+}
+
+.date-time-filters-space {
+    margin: 1em;
+}
+
+.text-header-filters {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #1d8cf8 !important;
+}
+
+.divider {
+    padding: 2em;
+}
+
+.btn-filter-hour-search {
+    margin-top: 2px !important;
+    padding: 10px 13px 10px 13px !important;
+    border-radius: 10px !important;
+    height: 70% !important;
+    background-image: linear-gradient(to bottom left, #1d8cf8, #73b9fd, #1d8cf8) !important;
+}
+
+.icon-filter-hour-search {
+    margin-bottom: 10px !important;
+}
+
+.label-filter-hour {
+    margin-top: -4% !important;
+}
+
+.label-filter-date {
+    margin-top: -1.7% !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+    .cursor-pointer:hover {
+        color: #94c9fd !important
+    }
+
+.pad-left-2em {
+    padding-left: 3em !important;
+}
+
+.pad-top-1em {
+    padding-top: 1em !important;
+}
+
+.to-late-hour-text {
+    color: #b99090;
+}
+
+.css-5duvv3-control {
+    background-color: #1e1e29 !important;
+    border-color: hsl(225, 31.7%, 24.7%) !important;
+}
+
+.css-1vp9nu5-control {
+    background-color: #20202d !important;
+    border-color: hsl(225, 31.7%, 24.7%) !important;
+}
+
+.css-1cx94m5-singleValue {
+    color: hsl(209.9, 84.5%, 52%) !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
