@@ -3,12 +3,10 @@ import { FiEdit3, FiTrash } from 'react-icons/fi';
 
 import { Container } from './styles';
 import api from '../../services/api';
-import { ReactNode } from 'react';
 
 import { IFood } from '../../types/food'
 
 interface IProps {
-  children: ReactNode;
   avaliable: boolean;
   food: IFood;
   handleEditFood: (food: IFood) => void;

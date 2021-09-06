@@ -1,4 +1,4 @@
-import React, { ReactNode, useState } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import ReactModal from 'react-modal';
 
 interface IProps {
@@ -10,9 +10,14 @@ interface IProps {
 const Modal: React.FC <IProps>= ({ children, setIsOpen, isOpen }: IProps) => {
   const [ modalStatus, setModalStatus ] = useState(isOpen);
 
-  if(!modalStatus) {
-    setModalStatus(false);
-  }
+  console.log(isOpen);
+  
+
+  useEffect(() => {
+    if(!modalStatus) {
+      setModalStatus(false);
+    }
+  }, [isOpen])
 
   return(
     <ReactModal

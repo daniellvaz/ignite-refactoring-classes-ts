@@ -1,11 +1,10 @@
-import React, { createRef, ReactNode, useRef } from 'react';
+import React, { useRef } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
-import { FormHandles, SubmitHandler } from '@unform/core';
+import { FormHandles } from '@unform/core';
 
 import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
-import Food from '../Food';
 
 import { IFood } from '../../types/food';
 

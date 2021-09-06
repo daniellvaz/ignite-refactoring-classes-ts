@@ -2,8 +2,7 @@ import {
   useEffect,
   useRef,
   useState,
-  useCallback,
-  ReactElement
+  useCallback
 } from 'react';
 
 import { useField } from '@unform/core';
@@ -32,7 +31,7 @@ const Input = ({ name, ...rest }: InputProps) => {
   const handleInputBlur = useCallback(() => {
     setIsFocused(false);
 
-    // setIsFilled(!!inputRef.current?.value);
+    setIsFilled(!!inputRef.current);
   }, []);
 
   useEffect(() => {
