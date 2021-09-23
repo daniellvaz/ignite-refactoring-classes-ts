@@ -22,7 +22,7 @@ const Food: React.FC<IProps> = ({ avaliable,  food, handleEditFood, handleDelete
       available: !isAvailable,
     });
 
-    setIsAvailable(false);
+    setIsAvailable(!isAvailable);
   }
 
   const setEditingFood = () => {

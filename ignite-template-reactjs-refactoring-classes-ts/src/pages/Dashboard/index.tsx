@@ -17,7 +17,7 @@ interface IFood {
 }
 
 interface IState {
-  foods?: IFood[],
+  foods: IFood[],
   editingFood?: IFood,
   modalOpen?: boolean,
   editModalOpen?: boolean,
@@ -79,17 +79,17 @@ const Dashboard: React.FC= () => {
 
   const toggleModal = () => {
     
-    setState({ modalOpen: !modalOpen });
+    setState({ modalOpen: !modalOpen, foods });    
   };
 
   const toggleEditModal = () => {
     const { editModalOpen } = state;
 
-    setState({ editModalOpen: !editModalOpen });
+    setState({ editModalOpen: !editModalOpen, foods });
   };
 
   const handleEditFood = (food: IFood) => {
-    setState({ editingFood: food, editModalOpen: true });
+    setState({ editingFood: food, editModalOpen: true, foods });
   };
 
   return (
@@ -120,7 +120,7 @@ const Dashboard: React.FC= () => {
               />
             ))}
         </FoodsContainer>
-    </>
+    </> 
   );
 } 
 

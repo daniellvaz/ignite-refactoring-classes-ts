@@ -23,12 +23,11 @@ interface IProps {
   handleUpdateFood: (food: IFood) => Promise<void>;
 }
 
-const ModalEditFood: React.FC <IProps>= ({ isOpen, editingFood, setIsOpen, handleAddFood, handleUpdateFood }: IProps) => {
+const ModalEditFood: React.FC <IProps>= ({ isOpen, editingFood, setIsOpen, handleUpdateFood }: IProps) => {
   const formRef = useRef<FormHandles>(null);
 
   const handleSubmit = async (data: IFood ) => {
-
-    handleAddFood(data);
+    handleUpdateFood(data);
     setIsOpen();
   };
 
